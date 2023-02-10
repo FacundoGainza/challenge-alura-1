@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://code.iconify.design/iconify-icon/1.0.3/iconify-icon.min.js"></script>
+    <script src="https://kit.fontawesome.com/dd110789e2.js" crossorigin="anonymous"></script>
+    <title>Encriptador</title>
+
+    
+</head>
+<body>
+ <header>
+    <img class="logo" src="img/Logo.png" alt="Logo-Alura" >
+    
+ </header>   
+ <main>
+    <section class="izquierda">
+        <textarea placeholder="Ingrese el texto aqui" cols="40" rows="6" class="texto-Area"></textarea>
+        <div>
+             <h6 class="informacion">Solo letras minúsculas y sin acentos</h6>
+        </div>
+        <div class="botones">
+            <button class="btn-encriptado" onclick="btnEncriptado()">Encriptado</button>
+            <button class="btn-desemcriptado" onclick="btnDesencriptado()">Desemcriptado</button>
+        </div>
+    </section >
+    <aside class="copiar">
+        <textarea  cols="20" rows="11" class="mensaje"></textarea>
+        <div>
+            <button class="btn-copiar" onclick="btnCopiar()">Copiar</button>
+        </div>
+    </aside>
+    <footer class="abajo">
+        <a href="https://www.instagram.com/oh_wow_look_at_this_shit/" class="fa-brands fa-instagram"></a>
+        <a href="https://www.linkedin.com/in/gainza-facundo/" class="fa-brands fa-linkedin"></a>
+        <a href="https://github.com/FacundoGainza" class="fa-brands fa-github"></a>
+        
+    
+    </footer>
+ </main>
+ <script src="script.js" ></script>
+</body>
+</html>
